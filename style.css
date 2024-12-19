@@ -1,0 +1,275 @@
+@media screen and (max-width: 992px) {
+  .contactform {
+    padding: 0 34px;
+    padding-top: 1px;
+    font-family: system-ui "Segoe UI" "Open Sans", "Helvetica Neue", sans-serif;
+    width: 25vw;
+  }
+}
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,700;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@700&family=Cormorant+Garamond:ital,wght@0,400;0,700;1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  size: 78%;
+}
+.sidebar {
+  background-color: rgba(210, 210, 210, 0.589);
+  width: 353px;
+  font-family: "Baloo Bhaijaan 2", cursive;
+  height: 100vh;
+}
+.sidebar nav {
+  margin: 45px;
+}
+.sidebar nav li {
+  list-style-type: none;
+  font-size: 30px;
+  padding: 25px 0px;
+  font-weight: bold;
+}
+.sidebar nav li a:hover {
+  text-shadow: 0px 0px 1px black, 0 0 25px rgba(23, 23, 196, 0.808),
+    0 0 5px rgba(190, 190, 218, 0.789);
+}
+
+.sidebar nav li a {
+  text-decoration: none;
+  color: black;
+}
+/* backgrounds */
+.main {
+  background-image: url(/pexels-tirachard-kumtanom-733857.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 172% 157%;
+  width: 90vw;
+}
+.main_intro {
+  background-image: url(/pexels-ann-h-1888003.jpg);
+  /* background-repeat: no-repeat;
+  background-attachment: fixed;*/
+  background-size: 130% 145%;
+  width: 90vw;
+}
+.main_blog {
+  background-color: lightcyan;
+}
+.main_contact {
+  background-color: rgba(115, 192, 184, 0.584);
+  width: 90vw;
+}
+.main_services {
+  background-color: rgba(90, 87, 253, 0.368);
+  width: 90vw;
+}
+.web_development {
+  background-color: rgba(176, 176, 58, 0);
+}
+.container {
+  display: flex;
+}
+/* info container  */
+.infocontainer {
+  background-color: rgb(255 255 255 / 44%);
+  height: 40vh;
+  width: 65vw;
+  margin: 146px auto;
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.devinfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  font-weight: 600;
+  align-items: center;
+}
+.devpic img {
+  height: 40vh;
+  font-family: "Cormorant Garamond", serif;
+}
+.hello {
+  font-size: 60px;
+  font-family: "Cormorant Garamond", serif;
+}
+.name {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Cormorant Garamond", serif;
+}
+.about {
+  font-size: 20px;
+  font-family: "Cormorant Garamond", serif;
+}
+.moreabout {
+  font-size: 20px;
+  font-family: "Cormorant Garamond", serif;
+  text-align: justify;
+  align-items: center;
+  font-weight: calc();
+  font-style: unset;
+  margin-top: 34px;
+}
+.btn {
+  margin-top: 8px;
+}
+.btn-sm {
+  margin: 9px;
+  padding: 2px 1px;
+  border-color: rgb(243, 211, 211);
+  border: 25%;
+  border-radius: 32%;
+  background-color: rgba(6, 31, 190, 0.841);
+  cursor: pointer;
+  padding: 11px;
+  color: white;
+  box-shadow: 0px 2px 3px 0px rgb(24, 7, 86);
+}
+
+.btn {
+  /* color: rgba(255, 255, 255, 0.912); */
+  border-color: rgb(243, 211, 211);
+  border: 25%;
+  border-radius: 32%;
+  background-color: rgba(6, 31, 190, 0.841);
+  cursor: pointer;
+  padding: 11px;
+  margin: 34px 97px;
+  color: white;
+  box-shadow: 0px 2px 3px 0px rgb(24, 7, 86);
+}
+.btn:hover {
+  background-color: rgba(6, 31, 190, 0.841);
+  color: white;
+  box-shadow: 0px 5px 10px 0px rgb(52, 6, 215);
+  border-color: rgb(243, 211, 211);
+  border: 25%;
+}
+.btn-sm:hover {
+  background-color: rgba(6, 31, 190, 0.841);
+  color: white;
+  box-shadow: 0px 5px 10px 0px rgb(52, 6, 215);
+  border-color: rgb(243, 211, 211);
+  border: 25%;
+}
+
+/* contact page css  */
+.contactform {
+  padding: 0 34px;
+  padding-top: 1px;
+  font-family: system-ui "Segoe UI" "Open Sans", "Helvetica Neue", sans-serif;
+}
+.contactform h1 {
+  font-family: "Baloo Bhaijaan 2", cursive;
+  /* text-align: center; */
+  padding: 22p 0px;
+}
+.contactform form div {
+  padding: 4px 0px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+}
+.contactform form div input {
+  width: 35vw;
+  border-radius: 5px;
+  font-size: 17px;
+  margin: 6px 0px;
+  padding: 3px;
+}
+#emailHelp {
+  margin: 0px 6px;
+  font-size: 12px;
+  color: grey;
+}
+#isclient1 {
+  flex-direction: row;
+}
+#isclient {
+  width: 25px;
+  margin: 5px 0px;
+}
+/* blog content */
+.blogItem {
+  margin: 0px 5px;
+  padding: 1px 11px;
+}
+h1,
+h2 {
+  margin: 8px;
+  font-family: "Baloo Bhaijaan 2", cursive;
+}
+p {
+  font-family: system-ui "Segoe UI" "Open Sans", "Helvetica Neue", sans-serif;
+  margin: -0px 44px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: space-between;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+/* intro content  */
+.skill {
+  height: 12px;
+  width: 300px;
+  background-color: rgba(65, 13, 255, 0.728);
+}
+.skillcontainer {
+  padding: 12px;
+}
+.skillItem {
+  display: flex;
+  align-items: center;
+}
+.hundered {
+  width: 275px;
+  background-color: green;
+  border: 2px solid black;
+}
+.fifty {
+  width: 235px;
+  background-color: rgb(242, 255, 0);
+  border: 2px solid black;
+}
+.t5 {
+  width: 125px;
+  background-color: rgb(255, 0, 0);
+  border: 2px solid black;
+}
+/* services  */
+.java {
+  /* background-color: rgba(14, 92, 176, 0.652); */
+  margin: 24px;
+}
+
+.web_development {
+  /* background-color: rgba(14, 22, 176, 0.652); */
+  margin: 24px;
+}
+.java1 {
+  background-image: url(/pexels-pixabay-270404.jpg);
+  margin: 25px;
+  padding: 83px;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: 289px 198px;
+  background-repeat: round;
+}
+
+.css1 {
+  background-image: url(/css.jpg);
+  margin: 25px;
+  padding: 83px;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: 265px 198px;
+  background-repeat: round;
+}
